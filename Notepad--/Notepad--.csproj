@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>weipminus_qNU_icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -93,6 +96,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="minusminus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="minusminus %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="weipminus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="weipminus_qNU_icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
